@@ -41,7 +41,7 @@ public class Hangman {
             
 
             while (!wordGuessed && attempts < 10) {
-                System.out.println("Guess the letters of the word! \n Enter de letter: ");
+                System.out.println("Guess the letters of the word! (it's a fruit) \n Enter de letter: ");
                 String letter;
                 while (true) {
                     System.out.print("- ");
